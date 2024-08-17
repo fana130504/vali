@@ -1,0 +1,32 @@
+body{
+    background-image: url("/home/fanantenana/toutes les leçon de MIT/misa.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: aquamarine;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+    padding-top: 12px;
+    border-color: blue;
+    border-bottom: 19px;
+    box-shadow: 100px;
+    text-shadow: 20px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-inline-start: 19px;
+
+}
+div{
+    background-color: blue;
+}
+h1:hover{
+    color:aquamarine;
+    padding: 18px 30px 20px 30px;
+    cursor: pointer;
+    transition: 2s;
+    animation: anime 20s ease-in-out infinite;
+    letter-spacing: 2ch;
+}

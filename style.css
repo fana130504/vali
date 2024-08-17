@@ -1,0 +1,79 @@
+table{background-color: red;}
+tr td{
+    border-spacing: 12px;
+    padding: 15px;
+}
+/*body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+.menu ul{
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;/*espace entre le lien 
+}
+.menu ul li a {
+    text-decoration: aqua;
+    color: blue;
+    font-size: 18px;
+}*/
+
+/*style navebar*
+.menu a{
+	color:white;
+	text-decoration:none;
+    
+}*/
+nav li{
+	
+	display:inline-block;
+	padding:15px;
+ 
+	
+}
+nav ul{
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 100px;/*espace entre le lien */
+}
+
+nav a li:hover{
+	transition:1s;
+	color: rgb(26, 5, 2);
+}
+
+nav li:hover{
+	background: -webkit-linear-gradient(90deg, hsl(308, 100%, 50%) hsl(278, 100%, 50%));
+	background: -moz-linear-gradient(90deg, hsl(308, 100%, 50%) hsl(278, 100%, 50%));
+	background: -o-linear-gradient(90deg, hsl(7, 93%, 48%) hsl(278, 100%, 50%));
+	background: -ms-linear-gradient(90deg, hsl(308, 100%, 50%) hsl(278, 100%, 50%));
+	background: linear-gradient(90deg, hsl(308, 100%, 50%) hsl(278, 100%, 50%));
+	color:aquamarine;
+    padding: 18px 30px 20px 30px;
+    cursor: pointer;
+    transition: 2s;
+    animation: anime 20s ease-in-out infinite;
+    letter-spacing: 2ch;
+}
+
+nav{
+	background: -webkit-linear-gradient(#6717cd , #2871fa);
+	background: -moz-linear-gradient(#6717cd , #2871fa);
+	background: -o-linear-gradient(#6717cd , #2871fa);
+	background: -ms-linear-gradient(#6717cd , #2871fa);
+	background: linear-gradient(#11f05b , #d81c0f);
+	box-shadow:4px 4px 6px #161718;
+	font-size: 20px;
+	font-family:Tahoma, Geneva, sans-serif;
+}*/
+nav li:hover{
+	
+}

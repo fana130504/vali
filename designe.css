@@ -1,0 +1,19 @@
+ <fieldset>
+    <label for="pseudo">entrez votre pseudo:</label>
+    <input type="text" name="pseudo" id="pseudo" placeholder="pseudo..." autocomplete="on"><br>
+    <legend>de quel matiere vous preferez </legend>
+   <label for="tch com">technique de communication:</label>
+    <input type="checkbox" value="technique de communication ">
+    <label for="analyse:">analyse</label>
+    <input type="checkbox" value="analyse"><br>
+    <label for="algebre:">algebre</label>
+    <input type="checkbox" value="algebre">
+    <label for="linux:">linux</label>
+    <input type="checkbox" value="linux"><br>
+    <label for="physique:">physique</label>
+    <input type="checkbox" value="physique">
+    <label for="base de donner:">base de donner </label>
+    <input type="checkbox" value="base de donner"><br>
+    <input type="reset" value="effacer">
+    <input type="submit" value="envoyer">
+</fieldset>

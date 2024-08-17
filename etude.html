@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etudier</title>
+    <link rel="stylesheet" href="etude.css">
+</head>
+<body>
+    <p>voici le pourcentage!!<meter val="0.25" optimum="0.25"> 25%</meter></p>
+    <p>en mathematique: <var>x</var><sup>2</sup><var>+ 5</var></p>
+    <p>en  chimie : h <sub>2</sub>o </p>
+    <p><font color="red"><font size="20"> <center>input option!!</center></font></font></p>
+    <form  method="post" id="id_form" autocomplete="on"><br>
+     <fieldset form="id_form">
+
+            <legend>ma section</legend>
+        <label for="prenom">nom</label>: <input type="text" id="prenom" name="username" placeholder="entrez votre nom..."><br>
+
+    <label for="prenom">mots de passe</label>: <input type="password" id="prenom" name="username" placeholder="entrez votre mots de passe..."><br>
+        est ce que vous publier un nouvaux ? <input type="checkbox" id="prenom" name="publishnews"><br>
+        qeul est votre soit:<input type="radio" name="choice">oui        <input type="radio" name="choice">non <br>
+        <input type="color" name="choice" value="#FF0000"><br>
+        <input type="date" name="date"><br>
+        <input type="time" name="date"><br>
+        <input type="range" name="date" min="0" max="100" step="5"><br>
+        <input type="number" name="date" value="100" min="0" max="150" step="5"><br>
+        <input type="submit" value="se connecter"><br>
+        <input type="reset" value="effacer"><br>
+
+        
+  </fieldset > </form> 
+    <p><font color="red"><font size="20"> <center>table  option!!</center></font></font></p>
+    <table>
+        <thead>
+            <tr>
+                <th>matiere</th>
+                <td colspan="2">en mathematique</td>
+               
+
+            </tr>
+        </thead>
+        <tbody>
+          <tr>  <th>formule remarquable</th>
+            <td><var>x</var><sup>2</sup><var>+ 5</var></p></td>
+            <td rowspan="2"> H<sub>2</sub>O</p></td>
+        </tr>
+        <tr>
+            <th>anglais</th>
+            <td>hello!</td>
+        </tr>
+        </tbody>
+     
+    </table>
+   <center> <textarea name="contenu_input" rows="10" cols="100" placeholder="entre votre texte..." minlength="10" maxlength="15">  </textarea></center>
+  <fieldset>
+    <legend>choix os</legend>
+   <select name="choixos" id="id_form" multiple>
+   <optgroup label="system">
+    <option value="win">windows </option>
+    <option value="linux">gnu/linux</option>
+    <option value="mac">macos</option>
+</optgroup>
+<optgroup label="difficulty">
+    <option value="easy">easy</option>
+    <option value="moyen">moyen</option>
+    <option value="hard">hard</option>
+</optgroup>
+   </select>
+   <input type="submit"  value="envoyer">
+   <button value="button">cliquez ici</button>
+</fieldset>
+</body>
+</html>

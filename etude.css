@@ -1,0 +1,10 @@
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid#123;padding:5px ;color: rgb(1, 1, 14);
+}
+th{background-color: rgb(223, 57, 15);}
+td{background-color: chartreuse;
+
+} <td>en  chimie</td>
